@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Menu</title>
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Framework BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!--Nuestro CSS-->
+    <link rel="stylesheet" type="text/css" href="css/estimenu.css" th:href="@{/css/estimenu.css}">
+
+</head>
+<body>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+                <div class="col-12 bank-img">
+                    <img class"centrado" src="img/bank.png" th:src="@{/img/bank.png}"/>
+                </div>
+                <form class="col-12" th:action="@{/login}" method="get">
+                    <div class="form-group" id="pin-group">
+                        <button type ="boton" class="boton"><a href="transaccion.html">Transacción</a></button>
+                        <button type ="boton" class="boton">Historial de transacciones</button>
+                        <button type ="boton" class="boton">Gráfico por tipo de Transacción</button>
+                        <button type ="boton" class="boton"><a href="login.html">Salir</a></button>
+                    </div>
+                </form>
+                            
+            </div>
+        </div>
+    </div>
+</body>
+</html>

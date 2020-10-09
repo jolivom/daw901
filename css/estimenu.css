@@ -1,0 +1,44 @@
+body{
+    background: #008080;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top:5%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: transparent;
+    padding: 0 10px;
+}
+
+.bank-img{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.bank-img img{
+    width: 175xp;
+    height: 175px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.boton{
+    width: 90%;
+    margin: 5px 0 10px;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #3d7dca;
+    border-radius: 6px;
+    border: 2px solid #003a70;
+}

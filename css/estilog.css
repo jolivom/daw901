@@ -1,0 +1,61 @@
+body{
+    background: #008080;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: transparent;
+    padding: 0 5px;
+}
+
+.bank-img{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.bank-img img{
+    width: 175xp;
+    height: 175px;
+}
+
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#pin-group::before{
+    content: "\f023";
+}
+
+.boton{
+    width: 50%;
+    margin: 5px 0 10px;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #3d7dca;
+    border-radius: 6px;
+    border: 2px solid #003a70;
+}
+

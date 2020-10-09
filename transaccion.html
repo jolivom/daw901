@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Transaccion</title>
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Framework BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!--Nuestro CSS-->
+    <link rel="stylesheet" type="text/css" href="css/estitransaccion.css" th:href="@{/css/estitransaccion.css}">
+
+</head>
+<body>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-12 main-section">
+            <div class="modal-content">
+                <div class="col-12 bank-img">
+                    <img src="img/bank.png" th:src="@{/img/bank.png}"/>
+                </div>
+                <form class="col-12" th:action="@{/login}" method="get">
+                    <div class="form-group" id="pin-group">
+                        <h3>Nombre del Cliente:</h3>
+                        <h3>Número de Cuenta:</h3>
+                        <button type ="boton" class="boton">Depósito</button>
+                        <button type ="boton" class="boton">Retiro</button>
+                        <button type ="boton" class="boton">Consulta de saldo</button>
+                        <button type ="boton" class="boton"><a href="servicios.html">Pago de Servicios</a></button>
+                        <button type ="boton" class="boton"><a href="menu.html">Salir</a></button>
+                    </div>
+                </form>
+                            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
